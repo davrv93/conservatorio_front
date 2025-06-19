@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Toolbar />
-      <Router>
+      <Router basename="/conservatorio_front">
         <Layout>
           <Routes>
             <Route path='/' element={<Dashboard />} />
